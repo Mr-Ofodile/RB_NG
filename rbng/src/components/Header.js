@@ -42,9 +42,7 @@ const Header = ()=>{
                 <li>
                   <a href="about-us.html">About Us</a>
                 </li>
-                <li>
-                  <a href="pricing.html">Pricing</a>
-                </li>
+
                 <li>
                   <a href="templates.html">Templates</a>
                 </li>
