@@ -20,7 +20,7 @@ class Header extends React.Component {
         <nav className="classy-navbar justify-content-between" id="dreamNav">
           {/* Logo */}
           <a className="nav-brand" href="index-2.html">
-            <img src={Logo} alt="logo" /> CV Builder.
+            <img src={Logo} alt="logo" /> NG CV.
           </a>
           {/* Navbar Toggler */}
           <div className="classy-navbar-toggler">
