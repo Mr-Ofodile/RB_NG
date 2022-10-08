@@ -1,5 +1,5 @@
 import React from 'react';
-import PropTypes from 'prop-types';
+
 import Dollar from '../img/svg/img-dollar.svg'
 import Banner2 from '../img/core-img/banner2.png'
 import D1 from '../img/icons/d1.png'
@@ -21,13 +21,8 @@ import Test1 from '../img/test-img/1.jpg';
 import Test2 from '../img/test-img/2.jpg';
 import Test3 from '../img/test-img/3.jpg';
 
-class Main extends React.Component {
-    constructor(props) {
-        super(props);
-        this.state = {};
-    }
-
-    render() {
+const Main = () => {
+  
         return (
             <div>
 <>
@@ -696,9 +691,9 @@ class Main extends React.Component {
 
             </div>
         );
-    }
+    
 }
 
-Main.propTypes = {};
+
 
 export default Main;

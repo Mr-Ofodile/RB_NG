@@ -1,14 +1,8 @@
 import React from 'react';
-import PropTypes from 'prop-types';
+
 import Logo from '../img/core-img/logo.png';
-
-class Header extends React.Component {
-    constructor(props) {
-        super(props);
-        this.state = {};
-    }
-
-    render() {
+const Header = ()=>{
+    
         return (
             <div>
 <>
@@ -213,9 +207,9 @@ class Header extends React.Component {
 
             </div>
         );
-    }
+    
 }
 
-Header.propTypes = {};
+
 
 export default Header;

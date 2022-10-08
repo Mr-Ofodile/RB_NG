@@ -1,13 +1,8 @@
 import React from 'react';
 import Logo from '../img/core-img/logo.png';
 
-class Footer extends React.Component {
-    constructor(props) {
-        super(props);
-        this.state = {};
-    }
-
-    render() {
+const Footer = ()=> {
+    
         return (
             <div>
 <footer className="footer-area bg-img">
@@ -123,9 +118,9 @@ class Footer extends React.Component {
 </footer>
             </div>
         );
-    }
+    
 }
 
-Footer.propTypes = {};
+
 
 export default Footer;
