@@ -1,6 +1,10 @@
 import React from 'react';
 import Check from '../img/icons/check.png';
 import Cvcore from '../img/core-img/cv.png';
+import Corecustom from '../img/core-img/custom.png';
+import D1 from '../img/icons/d1.png';
+import D2 from '../img/icons/d2.png';
+import D3 from '../img/icons/d3.png';
 
 const About = () => {
     return (
@@ -159,7 +163,7 @@ const About = () => {
           <div className="services-block-four">
             <div className="inner-box">
               <div className="icon-img-box">
-                <img src="img/icons/d1.png" alt="" />
+                <img src={D1} alt="" />
               </div>
               <h3>
                 <a href="#">Easy Online Resume Builder</a>
@@ -173,7 +177,7 @@ const About = () => {
           <div className="services-block-four">
             <div className="inner-box">
               <div className="icon-img-box">
-                <img src="img/icons/d2.png" alt="" />
+                <img src={D2} alt="" />
               </div>
               <h3>
                 <a href="#">Step by Step Expert Tips</a>
@@ -187,7 +191,7 @@ const About = () => {
           <div className="services-block-four" style={{ marginBottom: 0 }}>
             <div className="inner-box">
               <div className="icon-img-box">
-                <img src="img/icons/d3.png" alt="" />
+                <img src={D3} alt="" />
               </div>
               <h3>
                 <a href="#">Recruiter Approved Phrases</a>
@@ -234,7 +238,7 @@ const About = () => {
   <section className="container section-padding-100-0">
     <div className="subscribe">
       <div className="row align-items-center relative">
-        <img src="img/core-img/custom.png" alt="" className="custom" />
+        <img src={Corecustom} alt="" className="custom" />
         <div className="col-lg-5 col-lg-offset-3 col-md-9 col-xs-12">
           <h2 className="bold mb-0">
             Do you Need a Complete Custom CV Template?
